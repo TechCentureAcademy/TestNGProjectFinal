@@ -1,0 +1,16 @@
+*.log
+.settings/
+target/
+.gauge/
+reports/
+output/
+LogOutput/
+gauge_bin/
+test-output/
+.idea
+.gradle/
+*.iml
+build/
+*.log
+.classpath
+.project

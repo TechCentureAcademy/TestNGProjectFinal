@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MapSynq Test Suite" parallel="tests" thread-count="1">
+
+  	<parameter name="browserName" value="chrome" />
+	<parameter name="url" value="http://account.mapsynq.com/profiles/new" />
+  	<parameter name="firstName" value="naga" />
+  	<parameter name="lastName" value="k" />
+  	<parameter name="dob" value="11-11-1999" />
+  	<parameter name="email" value="test@gmail.com" />
+  	<parameter name="password" value="testssss" />
+
+ <test name="MapSynq - Account SignUp" >
+    <classes>
+      <class name="com.mapsynq.automation.register.test.MapSynqSignUp"/>
+    </classes>
+ </test>
+ 
+</suite>
